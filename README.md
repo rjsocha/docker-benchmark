@@ -56,6 +56,19 @@ docker run --privileged --rm tonistiigi/binfmt --install linux/arm64
  DOCKER: 20.10.22 CE
 ```
 
+## AMD Ryzen 9 5950X 16-Core Processor (host / aarch64 / 1 job)
+
+```
+docker run --privileged --rm tonistiigi/binfmt --install linux/arm64
+```
+
+```
+ TOTAL: 4870 s
+ STORAGE: NVMe / Samsung SSD 980 PRO 2TB
+ RAM: 64 GB
+ DOCKER: 20.10.22 CE
+```
+
 ## AMD Ryzen 9 5950X 16-Core Processor (vm / 32 jobs)
 
 ```
@@ -122,7 +135,7 @@ docker run --privileged --rm tonistiigi/binfmt --install linux/arm64
 ## Apple M1 (amd64 / 1 job)
 
 ```
- TOTAL:  s
+ TOTAL: 4356 s
  STORAGE: SSD / APPLE SSD AP1024Q Media
  RAM: 16 GB
  DOCKER: 22.06.0-beta.0-902-g2708be0db4.m
@@ -141,6 +154,15 @@ docker run --privileged --rm tonistiigi/binfmt --install linux/arm64
 
 ```
  TOTAL: 451 s
+ STORAGE: NVMe
+ RAM: 24 GB
+ DOCKER: 20.10.21
+```
+
+## 11th Gen Intel(R) Core(TM) i5-11400F @ 2.60GHz ( Windows 10 / Docker Desktop / WSL / aarch64 / 12 jobs)
+
+```
+ TOTAL: 1566 s
  STORAGE: NVMe
  RAM: 24 GB
  DOCKER: 20.10.21
